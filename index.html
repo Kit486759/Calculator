@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="keypad">
+            <div class="app-wrap">
+
+                <div class="display">
+                    <!-- display default 0 -->
+                    <input id="result" type="text" value="0">
+                </div>
+
+                <div class="">
+                    <button class="button" type="button" value="1" onclick="get(1)">1</button>
+                    <button class="button" type="button" value="2" onclick="get(2)">2</button>
+                    <button class="button" type="button" value="3" onclick="get(3)">3</button>
+                </div>
+
+                <div class="">
+                    <button class="button" type="button" value="4" onclick="get(4)">4</button>
+                    <button class="button" type="button" value="5" onclick="get(5)">5</button>
+                    <button class="button" type="button" value="6" onclick="get(6)">6</button>
+                </div>
+
+                <div class="">
+                    <button class="button" type="button" value="7" onclick="get(7)">7</button>
+                    <button class="button" type="button" value="8" onclick="get(8)">8</button>
+                    <button class="button" type="button" value="9" onclick="get(9)">9</button>
+                </div>
+
+                <div class="">
+                    <button class="button" type="button" value="/" onclick="get('/')">÷</button>
+
+                    <button class="button" type="button" value="0" onclick="get(0)">0</button>
+
+                    <button class="button" type="button" value="*" onclick="get('*')">×</button>
+                </div>
+
+                <div class="">
+                    <button class="button" type="button" value="+" onclick="get('+')">+</button>
+                    <button class="button" type="button" value="-" onclick="get('-')">-</button>
+                    <button id="cleanBtn" class="button" type="button" value="c" onclick="clean('c')">C</button>
+                </div>
+
+                <div class="">
+                    <button id="resultBtn" class="button" type="button" value="=" onclick="cal('=')">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>

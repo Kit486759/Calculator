@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    background-color: rgb(141, 141, 141);
+    box-shadow: rgb(0, 0, 0) 0 1px 1px 2px;
+    border-radius: 50px;
+    border:8px solid rgb(212, 212, 212);
+    width: 400px;
+    height: 450px;
+    margin:20vh auto;
+    box-shadow: black 12px 13px 27px -2px;
+    
+}
+
+.app-wrap {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-47.5%,-62%);
+}
+
+.keypad{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgb(48, 48, 48) 0 1px 1px 2px;
+    margin: 50px auto 0;
+    border-radius: 13px;
+    width: 325px;
+    height: 322px;
+    top: 53px;
+    
+}
+
+
+#result{
+    position: relative;
+    background-color: rgb(67, 95, 39);
+    box-shadow: rgb(100, 100, 100) 0 1px 1px 1px;
+    color:rgb(22, 22, 22);
+    left: -6%;
+    width: 349px;
+    height: 70px;
+    font-size: 50px;
+    border-radius: 18px;
+    margin-bottom: 18px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: right;
+    padding-right:20px;
+}
+
+
+
+.buttonplaceholder {
+    opacity: 0;
+    width: 80px;
+    height: 50px
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(235, 208, 159);
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: rgb(119, 119, 119) 0 1px 2px 1px;
+}
+
+#cleanBtn{
+    background: rgb(175, 87, 14);
+}
+
+#resultBtn {
+    width: 310px;
+    background: rgb(165, 71, 71);
+    margin-top:5px;
+    font-size: 30px;
+}
